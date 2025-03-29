@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Scissors, Thread, Users } from 'lucide-react';
+import { Scissors, Needle, Users } from 'lucide-react';
 
 const AboutSection: React.FC = () => {
   return (
@@ -17,7 +17,7 @@ const AboutSection: React.FC = () => {
         <div className="grid md:grid-cols-3 gap-8 mt-12">
           <div className="feature-card text-center">
             <div className="mx-auto bg-stitch-pink w-16 h-16 rounded-full flex items-center justify-center mb-4">
-              <Thread size={30} className="text-stitch-blue" />
+              <Needle size={30} className="text-stitch-blue" />
             </div>
             <h3 className="text-xl font-semibold mb-3 text-stitch-blue">Quality Craftsmanship</h3>
             <p className="text-gray-600">
